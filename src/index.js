@@ -4,19 +4,6 @@ import './index.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-// import About from './componentlist/About';
-// import Apidata from './componentlist/Apidata';
-// import Contactus from './componentlist/Contactus';
-// import Datail from './componentlist/Datail';
-// import Error from './componentlist/Error';
-// import Landingpage from './componentlist/Landingpage';
-// import Mynav from './componentlist/Mynav';
-import Navbar from './component/Navbar';
-// import Mychart from './componentlist/Mychart';
-// import Detailspage from './componentlist/Detailspage';
-// import Login from './componentlist/Login';
-// import Registration from './componentlist/Registration'
-
 import reportWebVitals from './reportWebVitals';
 import Home from './component/Home';
 import About from './component/About';
@@ -34,6 +21,7 @@ import Milestone from './component/Milestone';
 import Our_Clients from './component/Our_Clients';
 import Cloud_services from './component/OUR SERVICES/Cloud_services';
 import Digital_Marketing from './component/Digital_Marketing';
+import Navbar from './component/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

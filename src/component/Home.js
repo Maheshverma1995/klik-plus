@@ -191,6 +191,7 @@ const Home = () => {
         </div>
       </div>
       {/* end section-3  */}
+      {/* section-4 start  */}
       <section className='section-4'>
         <div className='container'>
           <div className='row'>
@@ -202,19 +203,19 @@ const Home = () => {
               <span className='section-span4'>&#8212;</span>
             </div>
             <div className='col-md-4'> <img className='img-fluid img-thumbnail shadow rounded ' src="./Image/web-desinging.jpg" alt="" /> </div>
-            <div className='col-md-4'> <div><h1 className='mt-5'>App Development</h1>
+            <div className='col-md-4'> <div className='section-4-div-text'><h1 className='mt-5'>App Development</h1>
             <h4>flutter/react/native/swift/kotlin</h4>
             </div> </div>
             <div className='col-md-4 '><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/database.jpg" alt="" />  </div>
-            <div className='col-md-4'> <div><h1 className='mt-5'>Web development</h1>
+            <div className='col-md-4'> <div className='section-4-div-text1'><h1 className='mt-5'>Web development</h1>
             <h4>anguler/react/node/etc.</h4>
             </div></div>
             <div className='col-md-4'><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/softwere1.jpg" alt="" /> </div>
-            <div className='col-md-4'><div><h1 className='mt-5'>Database Technologies</h1>
+            <div className='col-md-4'><div className='section-4-div-text1'><h1 className='mt-5'>Database Technologies</h1>
             <h4>Mysql, MongoDB, SQL server,Oracle,etc.</h4>
             </div> </div>
             <div className='col-md-4'><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/digital_marketing.jpg" alt="" /> </div>
-            <div className='col-md-4'><div><h1 className='mt-5'>Software Development</h1>
+            <div className='col-md-4'><div className='section-4-div-text'><h1 className='mt-5'>Software Development</h1>
             <h4>laravel/node/react/.net/java</h4>
             </div> </div>
             <div className='col-md-4'><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/appdesining.jpg" alt="" /> </div>
@@ -225,6 +226,12 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* section-4 end  */}
+      {/* section contact start  */}
+      <section className='contact'>
+
+      </section>
+      {/* section end  */}
     </div>
 
 

@@ -22,6 +22,7 @@ import Our_Clients from './component/Our_Clients';
 import Cloud_services from './component/OUR SERVICES/Cloud_services';
 import Digital_Marketing from './component/Digital_Marketing';
 import Navbar from './component/Navbar';
+import Footer from './component/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -45,8 +46,8 @@ root.render(
             <Route path='our-clients' element={<Our_Clients/>}/>
             <Route path='artificial-intelligence' element={<ARTIFICIAL_INTELLIGENCE/>}/>
            <Route path='*' element={<Error/>}/>
-           
-        </Routes>
+           </Routes>
+        <Footer/>
     </BrowserRouter>
   </React.StrictMode>
 );

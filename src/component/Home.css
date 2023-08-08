@@ -44,3 +44,36 @@
 .section-4{
     background-image: url('../../public/Image/banner5.png');
 }
+.section-4-div-text
+{
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    background-color: aqua;
+    border-radius: 50px;
+}
+.section-4-div-text1
+{
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    background-color: rgb(255, 0, 106);
+    border-radius: 50px;
+}
+.section-4-div-text h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2px;
+}
+.section-4-div-text h4{
+    text-align: center;
+    font-size: 15px;
+}
+.section-4-div-text1 h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2px;
+}
+.section-4-div-text1 h4{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}

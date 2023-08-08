@@ -1,0 +1,21 @@
+.section-1-div-1
+{
+    display: inline;
+}
+.section-span1
+{
+    width: 2px;
+    height: 2px;
+    background-color: brown;
+    border-radius: 50%;
+}
+.section-span4
+{
+    width: 20px;
+    height: 2px;
+    background-color: brown;
+    border-radius: 20px;
+}
+.home-paragraph{
+    display: inline;
+}

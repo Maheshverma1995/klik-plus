@@ -6,6 +6,10 @@
     background-color: #333;
     color: white;
     padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    margin-top: -80px;
+    z-index: 2;
   }
   
   /* Style for the contact information */
@@ -15,6 +19,41 @@
     gap: 20px;
     font-weight: 700;
     margin-left: 20px;
+  }
+  .logo-img
+  {
+    width: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #navbar1
+  {
+    position: fixed;
+    width: 100%;
+    background-color: #f3eded00;
+    z-index: 1;
+  }
+  .a
+  {
+    color: white;
+    font-size: 18px;
+  }
+  .dropdown-menu
+  {
+    background-color: #f0f8ff00;
+  }
+  .b
+  {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    
+  }
+  .phone-info
+  {
+    padding: 10px 13px;
+    background: #e51937;
+    border-radius: 50px;
   }
   
   /* Style for the phone number */

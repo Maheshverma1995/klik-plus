@@ -1,21 +1,46 @@
+.slider1
+{
+    margin-top: 80px;
+}
+.section-1
+{
+    background-image: url("../../public/Image/comp-bg.png");
+}
+.section-1-h1
+{
+    text-align: center;
+    color: white;
+}
+.section-1 h3
+{
+    color: white;
+}
+.section-1 img
+{
+    background-color: wheat;
+}
 .section-1-div-1
 {
-    display: inline;
+    text-align: center;
+    margin-top: -50px;
 }
 .section-span1
 {
-    width: 2px;
-    height: 2px;
-    background-color: brown;
-    border-radius: 50%;
+    font-size: 80px;
+    color: brown;
 }
 .section-span4
 {
-    width: 20px;
-    height: 2px;
-    background-color: brown;
-    border-radius: 20px;
+   font-size: 80px;
+   color: brown;
+   margin-top: 20px;
 }
 .home-paragraph{
-    display: inline;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    text-align: justify;
+}
+.section-4{
+    background-image: url('../../public/Image/banner5.png');
 }

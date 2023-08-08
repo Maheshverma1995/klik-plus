@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       {/* start slider  */}
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide slider1" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -46,10 +46,16 @@ const Home = () => {
       {/* end slider  */}
       {/* section-2 start  */}
 
-      <section>
+      <section className='section1'>
         <div className='container mt-5'>
           <div className='row'>
             <h1 className='text-center'>WELCOME TO OUR COMPANY</h1>
+            <div className='section-1-div-1 '>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span4'>&#8212;</span>
+            </div>
             <div className='col-md-6 home-paragraph mt-5'>
               At Our company, we envision a world
               empowered by technology, where businesses
@@ -60,24 +66,24 @@ const Home = () => {
               impact on society.
             </div>
             <div className='col-md-6'>
-          <img className='img-fluid' src="./Image/static-webdesign.png" alt="home" />
+              <img className='img-fluid' src="./Image/static-webdesign.png" alt="home" />
             </div>
           </div>
         </div>
       </section>
       {/* section-2 end  */}
       {/* start section-1  */}
-      <section className='section-1 mt-5'>
-        <h1 className='text-center'>OUR SERVICES</h1>
-        <div className='section-1-div-1 text-center mb-5'>
-          <span className='section-span1'> &#8226;</span>
-          <span className='section-span1'>&#8226; </span>
-          <span className='section-span1'>&#8226;  </span>
-          <span className='section-span4'>&#8212; </span>
+      <section className='section-1'>
+        <h1 className='section-1-h1'>OUR SERVICES</h1>
+        <div className='section-1-div-1 '>
+          <span className='section-span1'>&#8226;</span>
+          <span className='section-span1'>&#8226;</span>
+          <span className='section-span1'>&#8226;</span>
+          <span className='section-span4'>&#8212;</span>
         </div>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><img src="./Image/32.webp" alt="" /><h3>Cloud Services</h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>Cloud Services</h3></div>
               <div class="card" >
                 <img src="./Image/cloud.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
@@ -85,7 +91,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><img src="./Image/31.webp" alt="" /><h3>Digital Marketing</h3> </div>
+            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>Digital Marketing</h3> </div>
               <div class="card" >
                 <img src="./Image/Digital-Marketing.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
@@ -93,15 +99,15 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><img src="./Image/33.webp" alt="" /><h3>3D rendering</h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>3D rendering</h3></div>
               <div class="card" >
-                <img src="./Image/3D.webp" class="card-img-top" alt="..." />
+            <img src="./Image/3d.webp" alt="" />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><img src="./Image/34.webp" alt="" /><h3>ERP development </h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>ERP development </h3></div>
               <div class="card" >
                 <img src="./Image/erp.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
@@ -109,7 +115,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><img src="./Image/35.webp" alt="" /><h3>Software Development</h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>Software Development</h3></div>
               <div class="card" >
                 <img src="./Image/softwere.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
@@ -117,7 +123,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><img src="./Image/36.webp" alt="" /><h3>Artificial intelligence</h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>Artificial intelligence</h3></div>
 
               <div class="card" >
                 <img src="./Image/Artificial-intelligence.jpg" class="card-img-top" alt="..." />
@@ -126,7 +132,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><img src="./Image/37.webp" alt="" /><h3>Web-Design </h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>Web-Design </h3></div>
 
               <div class="card" >
                 <img src="./Image/web-design.jpg" class="card-img-top" alt="..." />
@@ -135,7 +141,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><img src="./Image/38.webp" alt="" /><h3>SEO</h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>SEO</h3></div>
 
               <div class="card" >
                 <img src="./Image/seo.jpg" class="card-img-top" alt="..." />
@@ -144,7 +150,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><img src="./Image/39.webp" alt="" /><h3>APP DEVELOPMENT</h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>APP DEVELOPMENT</h3></div>
 
               <div class="card" >
                 <img src="./Image/app.jpg" class="card-img-top" alt="..." />
@@ -158,7 +164,67 @@ const Home = () => {
         </div>
       </section>
       {/* end section-1  */}
-      
+      {/* start section-3  */}
+      <div className='container'>
+        <div className='row'>
+          <h1 className='text-center'>About</h1>
+          <div className='section-1-div-1 '>
+            <span className='section-span1'>&#8226;</span>
+            <span className='section-span1'>&#8226;</span>
+            <span className='section-span1'>&#8226;</span>
+            <span className='section-span4'>&#8212;</span>
+          </div>
+          <div className='col-md-6'>
+            <img className='img-fluid' src="./Image/about1.jpg" alt="about" />
+
+          </div>
+          <div className='col-md-6'>
+            <h3>ABOUT COMPANY</h3>
+            <p class="lead">At KLIK-PLUS, we are a leading software company that
+              takes pride in creating innovative solutions to
+              transform businesses and revolutionize industries.
+              With a dedicated team of passionate software
+              engineers, developers, and designers, we are
+              committed to delivering cutting-edge products and
+              services tailored to our clients' unique needs</p>
+          </div>
+        </div>
+      </div>
+      {/* end section-3  */}
+      <section className='section-4'>
+        <div className='container'>
+          <div className='row'>
+            <h1 className='text-center'>TECHNOLOGIES</h1>
+            <div className='section-1-div-1 '>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span4'>&#8212;</span>
+            </div>
+            <div className='col-md-4'> <img className='img-fluid img-thumbnail shadow rounded ' src="./Image/web-desinging.jpg" alt="" /> </div>
+            <div className='col-md-4'> <div><h1 className='mt-5'>App Development</h1>
+            <h4>flutter/react/native/swift/kotlin</h4>
+            </div> </div>
+            <div className='col-md-4 '><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/database.jpg" alt="" />  </div>
+            <div className='col-md-4'> <div><h1 className='mt-5'>Web development</h1>
+            <h4>anguler/react/node/etc.</h4>
+            </div></div>
+            <div className='col-md-4'><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/softwere1.jpg" alt="" /> </div>
+            <div className='col-md-4'><div><h1 className='mt-5'>Database Technologies</h1>
+            <h4>Mysql, MongoDB, SQL server,Oracle,etc.</h4>
+            </div> </div>
+            <div className='col-md-4'><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/digital_marketing.jpg" alt="" /> </div>
+            <div className='col-md-4'><div><h1 className='mt-5'>Software Development</h1>
+            <h4>laravel/node/react/.net/java</h4>
+            </div> </div>
+            <div className='col-md-4'><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/appdesining.jpg" alt="" /> </div>
+            
+
+
+
+          </div>
+        </div>
+      </section>
     </div>
 
 

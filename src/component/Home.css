@@ -77,3 +77,7 @@
     color: white;
     font-size: 15px;
 }
+.section-clints-row
+{
+    background-image: url(../../public/Image/misson.png);
+}

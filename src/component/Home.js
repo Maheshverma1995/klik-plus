@@ -101,7 +101,7 @@ const Home = () => {
             </div>
             <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>3D rendering</h3></div>
               <div class="card" >
-            <img src="./Image/3d.webp" alt="" />
+                <img src="./Image/3d.webp" alt="" />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -191,6 +191,31 @@ const Home = () => {
         </div>
       </div>
       {/* end section-3  */}
+      {/* section our clints start  */}
+      <section className='section-clints'>
+        <div className='container'>
+          <div className='row'>
+            <h1 className='text-center'>VISION AND MISSION</h1>
+            <div className='section-1-div-1 '>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span4'>&#8212;</span>
+            </div>
+            <div className='row section-clints-row mb-5 '>
+              <div className='col-md-8'>
+                <h2>VISSION</h2>
+                <p>Our vision is to transform the digital landscape bycreating user-centric, scalable, and reliable softwaresolutions. We aim to be the go-to partner forbusinesses seeking to leverage technology forgrowth and success.</p>
+              </div>
+              <div className='col-md-4'>
+                <h2>MISSION</h2>
+                <p>our mission is to create a culture ofinnovation and excellence within ourcompany, fostering an environmentwhere talented individuals can thrive,collaborate, and grow. We aim to createsolutions that address real-worldchallenges, staying one step ahead in anever-evolving technological landscape</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* end section our clints  */}
       {/* section-4 start  */}
       <section className='section-4'>
         <div className='container'>
@@ -204,22 +229,22 @@ const Home = () => {
             </div>
             <div className='col-md-4'> <img className='img-fluid img-thumbnail shadow rounded ' src="./Image/web-desinging.jpg" alt="" /> </div>
             <div className='col-md-4'> <div className='section-4-div-text'><h1 className='mt-5'>App Development</h1>
-            <h4>flutter/react/native/swift/kotlin</h4>
+              <h4>flutter/react/native/swift/kotlin</h4>
             </div> </div>
             <div className='col-md-4 '><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/database.jpg" alt="" />  </div>
             <div className='col-md-4'> <div className='section-4-div-text1'><h1 className='mt-5'>Web development</h1>
-            <h4>anguler/react/node/etc.</h4>
+              <h4>anguler/react/node/etc.</h4>
             </div></div>
             <div className='col-md-4'><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/softwere1.jpg" alt="" /> </div>
             <div className='col-md-4'><div className='section-4-div-text1'><h1 className='mt-5'>Database Technologies</h1>
-            <h4>Mysql, MongoDB, SQL server,Oracle,etc.</h4>
+              <h4>Mysql, MongoDB, SQL server,Oracle,etc.</h4>
             </div> </div>
             <div className='col-md-4'><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/digital_marketing.jpg" alt="" /> </div>
             <div className='col-md-4'><div className='section-4-div-text'><h1 className='mt-5'>Software Development</h1>
-            <h4>laravel/node/react/.net/java</h4>
+              <h4>laravel/node/react/.net/java</h4>
             </div> </div>
             <div className='col-md-4'><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/appdesining.jpg" alt="" /> </div>
-            
+
 
 
 
@@ -228,6 +253,7 @@ const Home = () => {
       </section>
       {/* section-4 end  */}
       {/* section contact start  */}
+
       <section className='contact'>
 
       </section>

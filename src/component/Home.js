@@ -1,5 +1,7 @@
 import React from 'react'
 import './Home.css'
+import { FaPhoneAlt ,FaEnvelope ,FaMapMarkerAlt,FaDribbble } from "react-icons/fa";
+
 
 const Home = () => {
   return (
@@ -87,7 +89,10 @@ const Home = () => {
               <div class="card" >
                 <img src="./Image/cloud.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Cloud services refer to a broad category of online computing services
+                    provided over the internet. Instead of storing and accessing data or running
+                    applications on local servers or personal computers, cloud services utilize
+                    remote servers hosted on the internet to deliver various functionalities.</p>
                 </div>
               </div>
             </div>
@@ -95,7 +100,10 @@ const Home = () => {
               <div class="card" >
                 <img src="./Image/Digital-Marketing.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">it is a practice of promoting products, services, or brands using various
+                    online channels and technologies. It is a broad term that encompasses all
+                    marketing efforts conducted through digital mediums to connect with
+                    potential customers, build brand awareness, and drive business growth</p>
                 </div>
               </div>
             </div>
@@ -103,7 +111,11 @@ const Home = () => {
               <div class="card" >
                 <img src="./Image/3d.webp" alt="" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">3D rendering involves transforming 3D models into photorealistic 2D images. It
+                    represents the concluding stage in the 3D visualization process, encompassing
+                    the creation of object models, application of textures, and the addition of scene
+                    lighting.
+                  </p>
                 </div>
               </div>
             </div>
@@ -111,7 +123,9 @@ const Home = () => {
               <div class="card" >
                 <img src="./Image/erp.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">It is the process of creating and customizing software solutions to
+                    support and streamline the management of various business processes
+                    within an organization.</p>
                 </div>
               </div>
             </div>
@@ -119,7 +133,11 @@ const Home = () => {
               <div class="card" >
                 <img src="./Image/softwere.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">We pride ourselves as a leading provider of software
+                    development services catering to businesses of all sizes. With a
+                    wealth of experience in the industry, our company has earned a
+                    reputation for delivering top-notch solutions, finely tailored to
+                    meet the distinct and specific needs of every client.</p>
                 </div>
               </div>
             </div>
@@ -128,7 +146,11 @@ const Home = () => {
               <div class="card" >
                 <img src="./Image/Artificial-intelligence.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Within the AI landscape, various technologies such as Deep learning and natural
+                    language processing are continually advancing on their unique trajectories. When
+                    integrated with data, analytics, visualization and automation, these technologies have
+                    the potential to assist businesses in reaching their objectives, whether it's enhancing
+                    customer service or optimizing the supply chain.</p>
                 </div>
               </div>
             </div>
@@ -191,8 +213,8 @@ const Home = () => {
         </div>
       </div>
       {/* end section-3  */}
-      {/* section our clints start  */}
-      <section className='section-clints'>
+      {/* section our Vission start  */}
+      <section className='section-Vission'>
         <div className='container'>
           <div className='row'>
             <h1 className='text-center'>VISION AND MISSION</h1>
@@ -202,12 +224,12 @@ const Home = () => {
               <span className='section-span1'>&#8226;</span>
               <span className='section-span4'>&#8212;</span>
             </div>
-            <div className='row section-clints-row mb-5 '>
-              <div className='col-md-8'>
+            <div className='row section-Vission-row mb-5 '>
+              <div className='col-md-8 section-Vission-col-1'>
                 <h2>VISSION</h2>
                 <p>Our vision is to transform the digital landscape bycreating user-centric, scalable, and reliable softwaresolutions. We aim to be the go-to partner forbusinesses seeking to leverage technology forgrowth and success.</p>
               </div>
-              <div className='col-md-4'>
+              <div className='col-md-4 section-Vission-col-2'>
                 <h2>MISSION</h2>
                 <p>our mission is to create a culture ofinnovation and excellence within ourcompany, fostering an environmentwhere talented individuals can thrive,collaborate, and grow. We aim to createsolutions that address real-worldchallenges, staying one step ahead in anever-evolving technological landscape</p>
               </div>
@@ -215,7 +237,37 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* end section our clints  */}
+      {/* end section our Vission  */}
+      {/* start our clints section  */}
+      <section className='setion-our-clint mb-5'>
+        <div className='container-fluid '>
+          <div className='row'>
+            <h1 className='text-center'>OUR CLIENTS</h1>
+            <div className='section-1-div-1 '>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span1'>&#8226;</span>
+              <span className='section-span4'>&#8212;</span>
+            </div>
+            <div className='col-md-3'>
+              <img className='img-fluid' src="./Image/pfered.png" alt="clint-image" />
+            </div>
+            <div className='col-md-3'>
+              <img className='img-fluid' src="./Image/cropped.png" alt="clint-image" />
+            </div>
+            <div className='col-md-3'>
+              <img className='img-fluid' src="./Image/town.png" alt="clint-image" />
+            </div>
+            <div className='col-md-3'>
+              <img className='img-fluid' src="./Image/mpowerin.png" alt="clint-image" />
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+      {/* end our clints section  */}
       {/* section-4 start  */}
       <section className='section-4'>
         <div className='container'>
@@ -255,7 +307,65 @@ const Home = () => {
       {/* section contact start  */}
 
       <section className='contact'>
+        
+        
+          <div class="wrapper ">
+            <div className='container'>
+            <div className='row'>
+          <h3 className='contact-form-h3 text-center'>Contact Us</h3>
+                <p className='contact-form-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <div className='col-md-6'>
+                  <div className='row'>
+                    <div className='col-md-6'>
+                      <span><FaPhoneAlt/></span>
+                      <label htmlFor="">9358322216</label>
+                    </div>
+                    <div className='col-md-6'>
+                      <span><FaEnvelope/></span>
+                      <label htmlFor="">info.klikplus@gmail.com</label></div>
+                  </div>
+                  <div className='row'>
+                    <div className='col-md-6'>
+                    <span><FaMapMarkerAlt/></span>
+                      <label htmlFor="">D-213 Noida sector - 63 </label>
+                    </div>
+                    <div className='col-md-6'>
+                    <span><FaDribbble/></span>
+                      <label htmlFor="">http://www.klikplussolution.com/</label>
+                    </div>
+                  </div>
+                   </div>
+            <div className='col-md-6'>
+            <div class="inner">
+              <form  action="">
+                
+                <label class="form-group">
+                  <input type="text" class="form-control" required="" />
+                  <span>Your Name</span>
+                  <span class="border"></span>
+                </label>
+                <label class="form-group">
+                  <input type="text" class="form-control" required="" />
+                  <span for="">Your Mail</span>
+                  <span class="border"></span>
+                </label>
+                <label class="form-group">
+                  <textarea name="" id="" class="form-control" required=""></textarea>
+                  <span for="">Your Message</span>
+                  <span class="border"></span>
+                </label>
+                <button>Submit
+                  <i class="zmdi zmdi-arrow-right"></i>
+                </button>
+              </form>
+            </div>
+            </div>
+            
+          </div>
+            </div>
+          
 
+        </div>
       </section>
       {/* section end  */}
     </div>

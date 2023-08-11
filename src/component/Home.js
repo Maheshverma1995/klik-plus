@@ -283,7 +283,7 @@ const Home = () => {
             <div className='col-md-4'> <div className='section-4-div-text'><h1 className='mt-5'>App Development</h1>
               <h4>flutter/react/native/swift/kotlin</h4>
             </div> </div>
-            <div className='col-md-4 '><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/database.jpg" alt="" />  </div>
+            <div className='col-md-4 '><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/appdesining.jpg" alt="" />  </div>
             <div className='col-md-4'> <div className='section-4-div-text1'><h1 className='mt-5'>Web development</h1>
               <h4>anguler/react/node/etc.</h4>
             </div></div>
@@ -295,7 +295,7 @@ const Home = () => {
             <div className='col-md-4'><div className='section-4-div-text'><h1 className='mt-5'>Software Development</h1>
               <h4>laravel/node/react/.net/java</h4>
             </div> </div>
-            <div className='col-md-4'><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/appdesining.jpg" alt="" /> </div>
+            <div className='col-md-4'><img className='img-fluid img-thumbnail shadow rounded ' src="./Image/database.jpg" alt="" /> </div>
 
 
 
@@ -306,7 +306,7 @@ const Home = () => {
       {/* section-4 end  */}
       {/* section contact start  */}
 
-      <section className='contact'>
+      <section className='contact mt-5'>
         
         
           <div class="wrapper ">

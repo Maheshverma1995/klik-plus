@@ -15,11 +15,13 @@ body
 .section-1-h1
 {
     text-align: center;
-    color: white;
+    color: black;
+    
 }
 .section-1 h3
 {
-    color: white;
+    color: black;
+    
 }
 .section-1 img
 {
@@ -53,15 +55,17 @@ body
 .section-4-div-text
 {
     width: 100%;
+    color: black;
     padding: 0px 10px 10px 10px;
-    background-color: aqua;
+    background-color: #028acd;
     border-radius: 50px;
 }
 .section-4-div-text1
 {
     width: 100%;
+    color: black;
     padding: 0px 10px 10px 10px;
-    background-color: rgb(255, 0, 106);
+    background-color: rgb(222 120 29);
     border-radius: 50px;
 }
 .section-4-div-text h1{
@@ -80,7 +84,7 @@ body
 }
 .section-4-div-text1 h4{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 15px;
 }
 .section-Vission-row
@@ -95,7 +99,8 @@ body
     text-align: justify;
     padding: 35px 144px 30px 30px;
     font-size: 20px;
-    color: white;
+    color: black;
+    
 
 
 }
@@ -107,20 +112,23 @@ body
     text-align: justify;
     padding: 0px 0px 30px 30px;
     font-size: 20px;
-    color: white;
+    color: black;
+    
 
 
 }
 .setion-our-clint
 {
     background-image: url(../../public/Image/WebsiteDesigning.jpg);
-    color: white;
+    color: black;
+    
 }
 .wrapper
 {
     min-height: 100vh;
     display: flex;
-    color: white;
+    color: black;
+    
     align-items: center;
     background: url(../../public/Image/bg-registration-form-7.jpg) no-repeat;
     background-size: cover;;
@@ -184,4 +192,37 @@ body
     transform: scaleX(0);
     transition: all .15s ease;
     background: #fff;
+}
+.form-control::placeholder
+{
+    color: darkorange;
+}
+
+.contact-button
+{
+    width: 165px;
+    height: 50px;
+    background-color: #00ade6;
+    color: white; 
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px darkorange;
+}
+.contact-icon-row
+{
+    width: auto;
+    height: 150px;
+    font-size: 20px;
+    color: white;
+}
+.contact-icon-col
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.contact-icon-col span
+{
+    font-size: 50px;
+    color: #333aa8;;
 }

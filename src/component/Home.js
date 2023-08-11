@@ -250,16 +250,16 @@ const Home = () => {
               <span className='section-span4'>&#8212;</span>
             </div>
             <div className='col-md-3'>
-              <img className='img-fluid' src="./Image/pfered.png" alt="clint-image" />
+              <img className='img-fluid' src="./Image/pfered.png" alt="" />
             </div>
             <div className='col-md-3'>
-              <img className='img-fluid' src="./Image/cropped.png" alt="clint-image" />
+              <img className='img-fluid' src="./Image/cropped.png" alt="" />
             </div>
             <div className='col-md-3'>
-              <img className='img-fluid' src="./Image/town.png" alt="clint-image" />
+              <img className='img-fluid' src="./Image/town.png" alt="" />
             </div>
             <div className='col-md-3'>
-              <img className='img-fluid' src="./Image/mpowerin.png" alt="clint-image" />
+              <img className='img-fluid' src="./Image/mpowerin.png" alt="" />
             </div>
 
           </div>
@@ -315,21 +315,21 @@ const Home = () => {
           <h3 className='contact-form-h3 text-center'>Contact Us</h3>
                 <p className='contact-form-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                 <div className='col-md-6'>
-                  <div className='row'>
-                    <div className='col-md-6'>
+                  <div className='row contact-icon-row'>
+                    <div className='col-md-4 contact-icon-col'>
                       <span><FaPhoneAlt/></span>
                       <label htmlFor="">9358322216</label>
                     </div>
-                    <div className='col-md-6'>
+                    <div className='col-md-4 contact-icon-col'>
                       <span><FaEnvelope/></span>
                       <label htmlFor="">info.klikplus@gmail.com</label></div>
                   </div>
-                  <div className='row'>
-                    <div className='col-md-6'>
+                  <div className='row contact-icon-row'>
+                    <div className='col-md-4 contact-icon-col'>
                     <span><FaMapMarkerAlt/></span>
                       <label htmlFor="">D-213 Noida sector - 63 </label>
                     </div>
-                    <div className='col-md-6'>
+                    <div className='col-md-4 contact-icon-col'>
                     <span><FaDribbble/></span>
                       <label htmlFor="">http://www.klikplussolution.com/</label>
                     </div>
@@ -340,21 +340,21 @@ const Home = () => {
               <form  action="">
                 
                 <label class="form-group">
-                  <input type="text" class="form-control" required="" />
-                  <span>Your Name</span>
+                  <input type="text" class="form-control" placeholder='Your Name' required="" />
+                  {/* <span>Your Name</span> */}
                   <span class="border"></span>
                 </label>
                 <label class="form-group">
-                  <input type="text" class="form-control" required="" />
-                  <span for="">Your Mail</span>
+                  <input type="text" class="form-control" placeholder='Your Mail' required="" />
+                  {/* <span for="">Your Mail</span> */}
                   <span class="border"></span>
                 </label>
                 <label class="form-group">
-                  <textarea name="" id="" class="form-control" required=""></textarea>
-                  <span for="">Your Message</span>
+                  <textarea name="" id="" class="form-control" placeholder='Your Message ' required=""></textarea>
+                  {/* <span for="">Your Message</span> */}
                   <span class="border"></span>
                 </label>
-                <button>Submit
+                <button className='contact-button'>Submit
                   <i class="zmdi zmdi-arrow-right"></i>
                 </button>
               </form>

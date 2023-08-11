@@ -10,7 +10,7 @@ const Navbar = () => {
       
       <div className="header-bar ">
             <div className="contact-info ">
-                <div className="phone-number"> <Link  id='text-phone'>Pho ane: 123-456-7890</Link> </div>
+                <div className="phone-number"> <Link  id='text-phone'>Phone: 123-456-7890</Link> </div>
                 <div className="company-address">Address: 123 Main St, City, State, Zip</div>
             </div>
 

@@ -250,16 +250,16 @@ const Home = () => {
               <span className='section-span4'>&#8212;</span>
             </div>
             <div className='col-md-3'>
-              <img className='img-fluid' src="./Image/pfered.png" alt="clint-image" />
+              <img className='img-fluid' src="./Image/pfered.png" alt="" />
             </div>
             <div className='col-md-3'>
-              <img className='img-fluid' src="./Image/cropped.png" alt="clint-image" />
+              <img className='img-fluid' src="./Image/cropped.png" alt="" />
             </div>
             <div className='col-md-3'>
-              <img className='img-fluid' src="./Image/town.png" alt="clint-image" />
+              <img className='img-fluid' src="./Image/town.png" alt="" />
             </div>
             <div className='col-md-3'>
-              <img className='img-fluid' src="./Image/mpowerin.png" alt="clint-image" />
+              <img className='img-fluid' src="./Image/mpowerin.png" alt="" />
             </div>
 
           </div>
@@ -316,20 +316,20 @@ const Home = () => {
                 <p className='contact-form-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                 <div className='col-md-6'>
                   <div className='row'>
-                    <div className='col-md-6'>
+                    <div className='col-md-6 address'>
                       <span><FaPhoneAlt/></span>
                       <label htmlFor="">9358322216</label>
                     </div>
-                    <div className='col-md-6'>
+                    <div className='col-md-6 address'>
                       <span><FaEnvelope/></span>
                       <label htmlFor="">info.klikplus@gmail.com</label></div>
                   </div>
                   <div className='row'>
-                    <div className='col-md-6'>
+                    <div className='col-md-6 address'>
                     <span><FaMapMarkerAlt/></span>
                       <label htmlFor="">D-213 Noida sector - 63 </label>
                     </div>
-                    <div className='col-md-6'>
+                    <div className='col-md-6 address'>
                     <span><FaDribbble/></span>
                       <label htmlFor="">http://www.klikplussolution.com/</label>
                     </div>

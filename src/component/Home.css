@@ -4,10 +4,7 @@ body
 {
     font-family: 'Merriweather', serif;
 }
-.slider1
-{
-    margin-top: 80px;
-}
+
 .section-1
 {
     background-image: url("../../public/Image/comp-bg.png");
@@ -30,7 +27,7 @@ body
 .section-1-div-1
 {
     text-align: center;
-    margin-top: -50px;
+    /* margin-top: -50px; */
 }
 .section-span1
 {
@@ -93,6 +90,7 @@ body
 }
 .section-Vission-col-1{
     margin-top: 100px;
+
     text-align: center;
 }
 .section-Vission-col-1 p{
@@ -224,5 +222,5 @@ body
 .contact-icon-col span
 {
     font-size: 50px;
-    color: #333aa8;;
+    color: darkorange;
 }

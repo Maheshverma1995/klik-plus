@@ -46,6 +46,10 @@ body
     font-size: 24px;
     text-align: justify;
 }
+.slider1
+{
+    margin-top: -62px;
+}
 .section-4{
     background-image: url('../../public/Image/banner5.png');
 }
@@ -213,13 +217,13 @@ body
     font-size: 20px;
     color: white;
 }
-.contact-icon-col
+.address
 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-.contact-icon-col span
+.address span
 {
     font-size: 50px;
     color: darkorange;

@@ -36,31 +36,31 @@ const Contactus = () => {
                   </div>
                 </div>
                  </div>
-          <div className='col-md-6'>
-          <div class="inner">
-            <form  action="">
-              
-              <label class="form-group">
-                <input type="text" class="form-control" placeholder='Your Name' required="" />
-                {/* <span>Your Name</span> */}
-                <span class="border"></span>
-              </label>
-              <label class="form-group">
-                <input type="text" class="form-control" placeholder='Your Mail' required="" />
-                {/* <span for="">Your Mail</span> */}
-                <span class="border"></span>
-              </label>
-              <label class="form-group">
-                <textarea name="" id="" class="form-control" placeholder='Your Message ' required=""></textarea>
-                {/* <span for="">Your Message</span> */}
-                <span class="border"></span>
-              </label>
-              <button className='contact-button'>Submit
-                <i class="zmdi zmdi-arrow-right"></i>
-              </button>
-            </form>
-          </div>
-          </div>
+                 <div className='col-md-6'>
+            <div class="inner">
+              <form  action="https://formspree.io/f/xleyjkjb" method="POST">
+                
+                <label class="form-group">
+                  <input type="text" name='Your name' class="form-control" placeholder='Your Name' required="" />
+                  {/* <span>Your Name</span> */}
+                  <span class="border"></span>
+                </label>
+                <label class="form-group">
+                  <input type="email" name='email'  class="form-control" placeholder='Your Mail' required="" />
+                  {/* <span for="">Your Mail</span> */}
+                  <span class="border"></span>
+                </label>
+                <label class="form-group">
+                  <textarea name="message" id="" class="form-control" placeholder='Your Message ' required=""></textarea>
+                  {/* <span for="">Your Message</span> */}
+                  <span class="border"></span>
+                </label>
+                <button className='contact-button'>Submit
+                  <i class="zmdi zmdi-arrow-right"></i>
+                </button>
+              </form>
+            </div>
+            </div>
           
         </div>
           </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import { FaPhoneAlt ,FaEnvelope ,FaMapMarkerAlt,FaDribbble } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaDribbble } from "react-icons/fa";
 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./Image/E-Commers-banner01.jpg" class="d-block w-100" alt="slider1" />
+            <img src="./Image/Think-big.jpg" class="d-block w-100" alt="slider1" />
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
@@ -29,7 +29,7 @@ const Home = () => {
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./image/DIGITAL-MARKETING1_1.jpg" class="d-block w-100" alt="slider3" />
+            <img src="./image/bg01.jpg" class="d-block w-100" alt="slider3" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
@@ -85,8 +85,8 @@ const Home = () => {
         </div>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>Cloud Services</h3></div>
-              <div class="card" >
+            <div className='col-md-4 mt-4 mb-4'> <div ><h3 className='text-center'>Cloud Services</h3></div>
+              <div class="card" id='service-card' >
                 <img src="./Image/cloud.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">Cloud services refer to a broad category of online computing services
@@ -96,8 +96,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>Digital Marketing</h3> </div>
-              <div class="card" >
+            <div className='col-md-4 mt-4 mb-4'> <div ><h3 className='text-center'>Digital Marketing</h3> </div>
+              <div class="card" id='service-card' >
                 <img src="./Image/Digital-Marketing.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">it is a practice of promoting products, services, or brands using various
@@ -107,8 +107,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>3D rendering</h3></div>
-              <div class="card" >
+            <div className='col-md-4 mt-4 mb-4'> <div ><h3 className='text-center'>3D rendering</h3></div>
+              <div class="card" id='service-card' >
                 <img src="./Image/3d.webp" alt="" />
                 <div class="card-body">
                   <p class="card-text">3D rendering involves transforming 3D models into photorealistic 2D images. It
@@ -119,8 +119,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>ERP development </h3></div>
-              <div class="card" >
+            <div className='col-md-4 mt-4 mb-4'> <div ><h3 className='text-center'>ERP development </h3></div>
+              <div class="card" id='service-card' >
                 <img src="./Image/erp.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">It is the process of creating and customizing software solutions to
@@ -129,8 +129,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>Software Development</h3></div>
-              <div class="card" >
+            <div className='col-md-4 mt-4 mb-4'> <div ><h3 className='text-center'>Software Development</h3></div>
+              <div class="card" id='service-card' >
                 <img src="./Image/softwere.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">We pride ourselves as a leading provider of software
@@ -141,9 +141,9 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>Artificial intelligence</h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div ><h3 className='text-center'>Artificial intelligence</h3></div>
 
-              <div class="card" >
+              <div class="card" id='service-card' >
                 <img src="./Image/Artificial-intelligence.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">Within the AI landscape, various technologies such as Deep learning and natural
@@ -154,27 +154,27 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>Web-Design </h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div ><h3 className='text-center'>Web-Design </h3></div>
 
-              <div class="card" >
+              <div class="card" id='service-card' >
                 <img src="./Image/web-design.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>SEO</h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div ><h3 className='text-center'>SEO</h3></div>
 
-              <div class="card" >
+              <div class="card" id='service-card' >
                 <img src="./Image/seo.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mt-4 mb-4'> <div className='d-flex'><h3>APP DEVELOPMENT</h3></div>
+            <div className='col-md-4 mt-4 mb-4'> <div ><h3 className='text-center'>APP DEVELOPMENT</h3></div>
 
-              <div class="card" >
+              <div class="card" id='service-card' >
                 <img src="./Image/app.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -187,8 +187,8 @@ const Home = () => {
       </section>
       {/* end section-1  */}
       {/* start section-3  */}
-      <div className='container'>
-        <div className='row'>
+      <div className='container-fluid setion-3'>
+        <div className='row section-3-row'>
           <h1 className='text-center'>About</h1>
           <div className='section-1-div-1 '>
             <span className='section-span1'>&#8226;</span>
@@ -215,7 +215,7 @@ const Home = () => {
       {/* end section-3  */}
       {/* section our Vission start  */}
       <section className='section-Vission'>
-        <div className='container'>
+        <div className='container-fluid'>
           <div className='row'>
             <h1 className='text-center'>VISION AND MISSION</h1>
             <div className='section-1-div-1 '>
@@ -307,63 +307,63 @@ const Home = () => {
       {/* section contact start  */}
 
       <section className='contact mt-5'>
-        
-        
-          <div class="wrapper ">
-            <div className='container'>
+
+
+        <div class="wrapper ">
+          <div className='container'>
             <div className='row'>
-          <h3 className='contact-form-h3 text-center'>Contact Us</h3>
-                <p className='contact-form-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                <div className='col-md-6'>
-                  <div className='row'>
-                    <div className='col-md-6 address'>
-                      <span><FaPhoneAlt/></span>
-                      <label htmlFor="">9358322216</label>
-                    </div>
-                    <div className='col-md-6 address'>
-                      <span><FaEnvelope/></span>
-                      <label htmlFor="">info.klikplus@gmail.com</label></div>
+              <h3 className='contact-form-h3 text-center'>Contact Us</h3>
+              <p className='contact-form-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+              <div className='col-md-6'>
+                <div className='row'>
+                  <div className='col-md-6 address'>
+                    <span><FaPhoneAlt /></span>
+                    <label htmlFor="">9358322216</label>
                   </div>
-                  <div className='row'>
-                    <div className='col-md-6 address'>
-                    <span><FaMapMarkerAlt/></span>
-                      <label htmlFor="">D-213 Noida sector - 63 </label>
-                    </div>
-                    <div className='col-md-6 address'>
-                    <span><FaDribbble/></span>
-                      <label htmlFor="">http://www.klikplussolution.com/</label>
-                    </div>
+                  <div className='col-md-6 address'>
+                    <span><FaEnvelope /></span>
+                    <label htmlFor="">info.klikplus@gmail.com</label></div>
+                </div>
+                <div className='row'>
+                  <div className='col-md-6 address'>
+                    <span><FaMapMarkerAlt /></span>
+                    <label htmlFor="">D-213 Noida sector - 63 </label>
                   </div>
-                   </div>
-            <div className='col-md-6'>
-            <div class="inner">
-              <form  action="https://formspree.io/f/xleyjkjb" method="POST">
-                
-                <label class="form-group">
-                  <input type="text" name='Your name' class="form-control" placeholder='Your Name' required="" />
-                  {/* <span>Your Name</span> */}
-                  <span class="border"></span>
-                </label>
-                <label class="form-group">
-                  <input type="email" name='email'  class="form-control" placeholder='Your Mail' required="" />
-                  {/* <span for="">Your Mail</span> */}
-                  <span class="border"></span>
-                </label>
-                <label class="form-group">
-                  <textarea name="message" id="" class="form-control" placeholder='Your Message ' required=""></textarea>
-                  {/* <span for="">Your Message</span> */}
-                  <span class="border"></span>
-                </label>
-                <button className='contact-button'>Submit
-                  <i class="zmdi zmdi-arrow-right"></i>
-                </button>
-              </form>
+                  <div className='col-md-6 address'>
+                    <span><FaDribbble /></span>
+                    <label htmlFor="">http://www.klikplussolution.com/</label>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-6'>
+                <div class="inner">
+                  <form action="https://formspree.io/f/xleyjkjb" method="POST">
+
+                    <label class="form-group">
+                      <input type="text" name='Your name' class="form-control" placeholder='Your Name' required="" />
+                      {/* <span>Your Name</span> */}
+                      <span class="border"></span>
+                    </label>
+                    <label class="form-group">
+                      <input type="email" name='email' class="form-control" placeholder='Your Mail' required="" />
+                      {/* <span for="">Your Mail</span> */}
+                      <span class="border"></span>
+                    </label>
+                    <label class="form-group">
+                      <textarea name="message" id="" class="form-control" placeholder='Your Message ' required=""></textarea>
+                      {/* <span for="">Your Message</span> */}
+                      <span class="border"></span>
+                    </label>
+                    <button className='contact-button'>Submit
+                      <i class="zmdi zmdi-arrow-right"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+
             </div>
-            </div>
-            
           </div>
-            </div>
-          
+
 
         </div>
       </section>

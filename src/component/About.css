@@ -1,11 +1,25 @@
 /* about css start  */
   
 .container-about {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-    margin-top: 150px;
     
+    margin: 0 auto;
+   
+    
+  }
+  .about-row1-button
+  {
+    margin: 40px;
+    padding: 16px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff7c05;
+    color: black;
+    text-transform: capitalize;
+  }
+  .about-row
+  {
+    background-color: aqua;
   }
   
   .about-section {

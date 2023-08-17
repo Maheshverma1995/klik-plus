@@ -48,12 +48,16 @@
     color: #0d6efd;
     font-size: 18px;
   }
-  .dropdown:hover
-  .dropdown-menu
+  .a:hover
   {
-    background-color: #f0f8ff00;
-    display: none;
+    color: darkorange;
+    
   }
+  .a:visited
+  {
+    color:darkorange;
+  }
+  
   .b
   {
     color: #0d6efd;
@@ -61,6 +65,19 @@
     text-decoration: none;
     
   }
+  .dropdown-menu
+  {
+    display: none;
+  }
+  .dropdown:hover .dropdown-menu{
+    display: block;
+    width: 300px;
+    padding: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    
+  }
+  
   .phone-info
   {
     padding: 10px 13px;

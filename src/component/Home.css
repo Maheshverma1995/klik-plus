@@ -4,10 +4,16 @@ body
 {
     font-family: 'Merriweather', serif;
 }
+.section1{
+    background-image: url(../../public/Image/background8-1920x1280.jpg);
+    background-size: cover;
+}
 
 .section-1
 {
-    background-image: url("../../public/Image/comp-bg.png");
+    /* background-image: url("../../public/Image/comp-bg.png"); */
+    background-image: url(../../public/Image/background-mission.jpg);
+    width: auto;
 }
 .section-1-h1
 {
@@ -40,6 +46,15 @@ body
    color: brown;
    margin-top: 20px;
 }
+#service-card
+{
+    height: 550px;
+}
+
+.card-text
+{
+    text-align: justify;
+}
 .home-paragraph{
     display: flex;
     align-items: center;
@@ -51,7 +66,8 @@ body
     margin-top: -62px;
 }
 .section-4{
-    background-image: url('../../public/Image/banner5.png');
+    /* background-image: url('../../public/Image/banner5.png'); */
+    width: auto;
 }
 .section-4-div-text
 {
@@ -61,6 +77,19 @@ body
     background-color: #028acd;
     border-radius: 50px;
 }
+.setion-3
+{
+    background-image: url(../../public/Image/vcb.webp);
+   
+}
+
+.lead
+{
+    text-align: justify;
+    color: #000000;
+
+}
+
 .section-4-div-text1
 {
     width: 100%;
@@ -90,7 +119,8 @@ body
 }
 .section-Vission-row
 {
-    background-image: url(../../public/Image/misson.png);
+    /* background-image: url(../../public/Image/background-mission.jpg); */
+    width: auto;
 }
 .section-Vission-col-1{
     margin-top: 100px;
@@ -121,7 +151,7 @@ body
 }
 .setion-our-clint
 {
-    background-image: url(../../public/Image/WebsiteDesigning.jpg);
+    /* background-image: url(../../public/Image/WebsiteDesigning.jpg); */
     color: black;
     
 }
@@ -132,7 +162,7 @@ body
     color: black;
     
     align-items: center;
-    background: url(../../public/Image/bg-registration-form-7.jpg) no-repeat;
+    /* background: url(../../public/Image/bg-registration-form-7.jpg) no-repeat; */
     background-size: cover;;
 }
 .inner

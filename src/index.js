@@ -23,6 +23,7 @@ import Cloud_services from './component/OUR SERVICES/Cloud_services';
 import Digital_Marketing from './component/Digital_Marketing';
 import Navbar from './component/Navbar';
 import Footer from './component/Footer';
+import Digital_marketing from './component/OUR SERVICES/Digital_marketing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,7 +35,7 @@ root.render(
            <Route path='about' element={<About/>}/> 
             <Route path='contact' element={<Contactus/>}/>
             <Route path='cloud-services' element={<Cloud_services/>}/>
-            <Route path='digital-marketing' element={<Digital_Marketing/>}/>
+            <Route path='digital-marketing' element={<Digital_marketing/>}/>
             <Route path='rendering-3d' element={<Rendering_3D/>}/>
             <Route path='software-development' element={<Software_Development/>}/>
             <Route path='lms-development' element={<Lms_Development/>}/>

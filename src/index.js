@@ -24,12 +24,14 @@ import Digital_Marketing from './component/Digital_Marketing';
 import Navbar from './component/Navbar';
 import Footer from './component/Footer';
 import Digital_marketing from './component/OUR SERVICES/Digital_marketing';
+import SideIcon from './component/SideIcon';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Navbar/>
+    <SideIcon/>
         <Routes>
            <Route path='' element={<Home/>}/>
            <Route path='about' element={<About/>}/> 

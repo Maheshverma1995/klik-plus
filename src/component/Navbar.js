@@ -34,7 +34,7 @@ const Navbar = () => {
           <Link to="#" className="s aocial-icon"><i className=""><FaInstagram /></i>
           </Link>
         </div>
-        <div class="phone-info"> <a href="tel:+919560461163" title="Call Us" class="d-flex align-items-center">
+        {/* <div class="phone-info"> <a href="tel:+919560461163" title="Call Us" class="d-flex align-items-center">
           <div class="flex-shrink-0"> <img class="img-fluid me-2" src="https://radiantwebtech.com/website-designing-in-delhi/assets/images/email-icon.png " alt="call Us" /> </div>
           <div class="flex-grow-1">
             <div class="d-sm-block d-none"> <small class="lh-sm text-white d-block">Call Us</small>
@@ -42,7 +42,7 @@ const Navbar = () => {
             </div>
           </div>
         </a>
-        </div>
+        </div> */}
       </div>
       {/* end header bar  */}
       <div className={`navbar ${stickyClass}`}>

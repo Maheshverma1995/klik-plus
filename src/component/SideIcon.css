@@ -1,0 +1,107 @@
+.side-icon
+{
+    z-index: 100;
+    margin-top: 80px;
+    position: absolute;
+   
+}
+.section-1
+{
+    position: fixed;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.side-icon-section-1-div-1
+{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-top-right-radius: 20px;
+
+}
+.section-2
+{
+    position: fixed;
+    display: flex;
+}
+.section-2 #img-icon
+{
+    width: 50px;
+    margin-top: 350px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.section-2 #img-icon:hover
+{
+    transform: rotate(360deg);
+}
+.whatapp
+{
+  
+    margin-top: 420px;
+    float: right;
+    position: fixed;
+    z-index: 100;
+    width: 200px;
+    height: 60px;
+    background-color: #08c516;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    
+
+}
+.whatapp-1
+{
+    width: 50px;
+    
+}
+.side-icon-contact-us
+{
+    width: 60px;
+    height: 100px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    align-items: center;  
+}
+.side-icon-contact-us-form
+{
+    display: none;
+}
+.side-icon-contact-us:hover .side-icon-contact-us-form{
+    display: block;
+    width: 300px;
+    height: 200px;
+    z-index: 200;
+    background-color: #08c516;
+}
+.side-icon-contact-us h3{
+    transform: rotate(-90deg);
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+}
+.youthub
+{
+    background-color: red;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.linkIn
+{
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+
+}
+.whatapp-text
+{
+    padding: 10px;
+    color: white;
+
+}

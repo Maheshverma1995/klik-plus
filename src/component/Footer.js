@@ -4,7 +4,6 @@ import './footer.css'
 const Footer = () => {
     return (
         <div>
-
             <div class="container-fluid" id='footer'>
                 <footer class="py-5">
                     <div class="row row1">

@@ -6,7 +6,7 @@ const SideIcon = () => {
     return (
         <div>
             <div className='side-icon'>
-                <section className='section-1'>
+                <section className='section-1-'>
                     <div className='section-1-div-1'><FaLongArrowAltLeft /></div>
                     <div className='side-icon-contact-us'><h3>contact-us</h3>
                     <div className='.side-icon-contact-us-form'>
